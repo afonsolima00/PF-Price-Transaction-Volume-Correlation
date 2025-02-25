@@ -33,7 +33,7 @@ def limited_get(url: str, headers: dict = None) -> requests.Response:
     return response
 
 # Parameters
-ETHERSCAN_API_KEY = 'M8NZU3KCC4U5H6NFS19DTFFU2FUVCHB8ZB'  # Replace with your valid API key
+ETHERSCAN_API_KEY = 'INSERT_YOUR_API_KEY'  # Replace with your valid API key
 START_DATE = '2022-12-01'
 END_DATE = '2022-12-31'
 
