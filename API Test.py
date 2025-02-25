@@ -8,7 +8,7 @@ params = {
     "startblock": 0,
     "endblock": 99999999,
     "sort": "asc",
-    "apikey": "M8NZU3KCC4U5H6NFS19DTFFU2FUVCHB8ZB"
+    "apikey": "INSERT_YOUR_API_KEY"
 }
 response = requests.get(url, params=params)
 print(response.json())
