@@ -8,7 +8,7 @@ import time
 import json
 
 # API Configuration
-ETHERSCAN_API_KEY = "M8NZU3KCC4U5H6NFS19DTFFU2FUVCHB8ZB"
+ETHERSCAN_API_KEY = "INSERT_YOUR_API_KEY"
 COINGECKO_URL = "https://api.coingecko.com/api/v3/coins/ethereum/market_chart"
 
 def fetch_total_supply(days=30):
